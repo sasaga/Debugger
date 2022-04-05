@@ -1,5 +1,5 @@
 <div align="center">
-    <img width="1040" height="459" src="https://i.ibb.co/rZmk7dp/Screen-Shot-2022-04-05-at-10-45-14-AM.png"/>
+    <img width="1080" height="489" src="https://i.ibb.co/rZmk7dp/Screen-Shot-2022-04-05-at-10-45-14-AM.png"/>
     <br/>
     <br/>
     <a href="https://hub.docker.com/_/docker"><img src="https://img.shields.io/badge/docker-20.10.12-blue.svg"></a>
@@ -37,7 +37,7 @@ You can run Debugger and get a zsh shell as follows:
 ```
 docker run -h debugger --rm  -it sasaga/debugger:1.0 shell
 ```
-<img width="540" height="359" src="https://i.ibb.co/rZmk7dp/Screen-Shot-2022-04-05-at-10-45-14-AM.png"/>
+<img width="1080" height="489" src="https://i.ibb.co/rZmk7dp/Screen-Shot-2022-04-05-at-10-45-14-AM.png"/>
 
 If you want to run ChipWhisperer notebooks with jupyter you must execute the following command:
 ````
