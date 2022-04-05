@@ -43,9 +43,9 @@ If you want to run ChipWhisperer notebooks with jupyter you must execute the fol
 ````
 docker run -p 8888:8888 --rm  -it sasaga/debugger:1.0 jupyter_chipwhisperer
 ````
-<img width="740" height="359" src="https://i.ibb.co/TBJ4pgf/Screen-Shot-2022-04-05-at-11-28-06-AM.png"/>
+<img width="1080" height="489" src="https://i.ibb.co/TBJ4pgf/Screen-Shot-2022-04-05-at-11-28-06-AM.png"/>
 You can easily access the link provided by jupyter.
-<img width="740" height="359" src="https://i.ibb.co/27YQCCG/Screen-Shot-2022-04-05-at-11-30-33-AM.png"/>
+<img width="1080" height="489" src="https://i.ibb.co/27YQCCG/Screen-Shot-2022-04-05-at-11-30-33-AM.png"/>
 
 You can also share for example a USB Serial device to access from Debugger. 
 ```
@@ -55,7 +55,7 @@ Verify that the communication from Debugger is correctly established.
 ```
 python3 -c 'import serial;s = serial.Serial("/dev/ttyUSB0", 115200);s.write(b"?\n");print(s.read(900).decode())'
 ```
-<img width="740" height="259" src="https://i.ibb.co/4NXHNPB/Screen-Shot-2022-04-05-at-12-07-37-PM.png"/>
+<img width="1080" height="389" src="https://i.ibb.co/4NXHNPB/Screen-Shot-2022-04-05-at-12-07-37-PM.png"/>
 
 
 <div align="center">
